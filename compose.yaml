@@ -20,5 +20,7 @@ services:
       retries: 3
   front:
     image: kylian9/fronttestmobile
+    ports:
+      - "80:80"
 volumes:
   mongodb_data:
