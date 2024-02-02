@@ -21,6 +21,6 @@ services:
   front:
     image: kylian9/fronttestmobile
     ports:
-      - "80:80"
+      - "89:89"
 volumes:
   mongodb_data:
